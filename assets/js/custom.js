@@ -35,6 +35,27 @@
         }
       }
   });
+
+  $('.loop-right').owlCarousel({
+    rtl:true,
+    center: true,
+    items:1,
+    loop:true,
+    autoplay: true,
+    nav: true,
+    margin:0,
+    responsive:{ 
+        1200:{
+            items:5
+        },
+        992:{
+            items:3
+        },
+        760:{
+          items:2
+      }
+    }
+});
 	
 
 	// Menu Dropdown Toggle

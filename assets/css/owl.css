@@ -42,7 +42,7 @@
   .owl-carousel .owl-item {
     position: relative;
     min-height: 1px;
-    float: left;
+    float: right;
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
@@ -89,9 +89,9 @@
     cursor: move;
     cursor: grab; }
   .owl-carousel.owl-rtl {
-    direction: rtl; }
+    direction: rtl }
   .owl-carousel.owl-rtl .owl-item {
-    float: right; }
+    float: left; }
 
 /* No Js */
 .no-js .owl-carousel {
