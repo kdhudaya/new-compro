@@ -127,7 +127,14 @@ p {
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
-  color: #afafaf;
+  color: #000000;
+}
+
+pc {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
 }
 
 img {
@@ -887,7 +894,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 120px 0px 60px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -952,6 +959,7 @@ Banner Style
 
 .main-banner .right-image img {
   width: 675px;
+  margin-top: -120;
 }
 
 ul.home-benefits {
@@ -981,7 +989,8 @@ About Style
 */
 
 #about {
-  padding-top: 130px;
+  padding-top: 0px;
+  padding-bottom: 60px;
 }
 
 .about-left-image img {
@@ -1240,7 +1249,7 @@ Services Style
 */
 
 .services {
-  padding-top: 130px;
+  padding-top: 30px;
   position: relative;
 }
 
@@ -1270,7 +1279,7 @@ Services Style
 
 .services .section-heading {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 .services .section-heading .line-dec {
@@ -1495,7 +1504,7 @@ Portfolio
 */
 
 .our-portfolio {
-  padding-top: 130px;
+  padding-top: 60px;
   overflow: hidden;
   position: relative;
 }
@@ -1525,7 +1534,7 @@ Portfolio
 }
 
 .our-portfolio .section-heading {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .our-portfolio .container-fluid {
@@ -1804,10 +1813,10 @@ form#contact:before {
 }
 
 .contact-dec img {
-  max-width: 224px;
+  max-width: 185px;
   position: absolute;
   right: 25px;
-  top: -242px;
+  top: -200px;
 }
 
 form#contact:after {
